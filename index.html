@@ -15,14 +15,18 @@
         <img src="images/logo.svg" alt="Manage" class="header__logo" />
       </div>
       <nav>
-        <button class="header__menu__button"><img src="images/icon-hamburger.svg" alt="Menu" /></button>
-        <ul class="header__menu">
+        <button class="header__menu__button" aria-controls="header__menu" aria-expanded="false" >
+          <img src="images/icon-hamburger.svg" alt="Menu"/>
+        </button>
+        <div class="header__menu__container">
+        <ul id="header__menu" class="header__menu hidden">
           <li class="header__menu__item"><a href="" class="header__menu__link">Pricing</a></li>
           <li class="header__menu__item"><a href="" class="header__menu__link">Product</a></li>
           <li class="header__menu__item"><a href="" class="header__menu__link">About Us</a></li>
           <li class="header__menu__item"><a href="" class="header__menu__link">Careers</a></li>
           <li class="header__menu__item"><a href="" class="header__menu__link">Community</a></li>
         </ul>
+        <div></div>
       </nav>
       <button class="button header__button">Get Started</button>
     </header>
