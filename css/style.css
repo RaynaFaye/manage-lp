@@ -13,7 +13,7 @@ body {
 }
 .paragraph {
   color: hsl(227, 12%, 61%);
-  line-height: 1.5;
+  line-height: 1.8;
 }
 .button {
   font-family: 'Be Vietnam', sans-serif;
@@ -88,6 +88,42 @@ body {
 }
 .intro__button {
   margin-top: 20px;
+}
+/* About section */
+.about__intro {
+  text-align: center;
+  padding: 0 25px 50px 25px;
+}
+.about__intro__title {
+  font-size: 30px;
+}
+.about__facts {
+  padding: 0 5px;
+}
+.about__facts__title {
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 10px 0;
+  font-size: 16px;
+}
+.about__facts__number {
+  background: hsl(12, 88%, 59%);
+  color: hsl(0, 0%, 98%);
+  border-radius: 50px;
+  padding: 7px 25px;
+  position: relative;
+  z-index: 2;
+}
+.about__facts__title__text {
+  background: hsl(13, 100%, 96%);
+  width: 100%;
+  display: inline-block;
+  margin-left: -20px;
+  padding: 7px 0px 7px 30px;
+}
+.about__facts__paragraph {
+  font-size: 15px;
+  margin: 0 0 50px 0;
 }
 /* Attribution Section */
 .attribution {
