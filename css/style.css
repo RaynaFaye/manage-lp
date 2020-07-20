@@ -125,6 +125,21 @@ body {
   font-size: 15px;
   margin: 0 0 50px 0;
 }
+/* Simplify section */
+.simplify {
+  background: hsl(12, 88%, 59%) no-repeat url(../images/bg-simplify-section-mobile.svg) left center;
+  color: hsl(0, 0%, 98%);
+  text-align: center;
+  padding: 75px 25px;
+}
+.simplify__title {
+  font-size: 38px;
+}
+.simplify__button {
+  background: hsl(0, 0%, 98%);
+  color: hsl(12, 88%, 59%);
+  box-shadow: none;
+}
 /* Attribution Section */
 .attribution {
   font-size: 11px;
