@@ -273,6 +273,20 @@ body {
   .header__button {
     display: block;
   }
+  /* Simplify section */
+  .simplify {
+    background: hsl(12, 88%, 59%) no-repeat url(../images/bg-simplify-section-desktop.svg);
+    background-position: right -250px top 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  .simplify__title {
+    width: 47%;
+    margin: 0;
+  }
 }
 @media all and (min-width: 1136px) {
   /* Header section */
@@ -284,5 +298,15 @@ body {
   }
   .header__menu__item {
     margin: 0 35px 0 0;
+  }
+  /* Simplify section */
+  .simplify {
+    padding: 50px 150px;
+  }
+}
+@media all and (min-width: 1732px) {
+  /* Simplify section */
+  .simplify {
+    padding: 75px 150px;
   }
 }
