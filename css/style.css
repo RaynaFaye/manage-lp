@@ -241,3 +241,48 @@ body {
 .attribution a {
   color: #ffffff;
 }
+@media all and (min-width: 804px) {
+  /* Header section */
+  .header {
+    padding: 50px;
+  }
+  .header__logo {
+    margin-right: 0px;
+  }
+  .header__menu__button {
+    display: none;
+  }
+  .header__menu.hidden {
+    display: flex;
+  }
+  .header__menu {
+    width: unset;
+    background: unset;
+    text-align: left;
+    position: relative;
+    top: unset;
+    left: unset;
+  }
+  .header__menu__item {
+    margin: 0 15px 0 0;
+    white-space: nowrap;
+  }
+  .header__menu__link {
+    font-weight: 500;
+  }
+  .header__button {
+    display: block;
+  }
+}
+@media all and (min-width: 1136px) {
+  /* Header section */
+  .header {
+    padding: 50px 150px;
+  }
+  .header__logo {
+    margin-right: 35px;
+  }
+  .header__menu__item {
+    margin: 0 35px 0 0;
+  }
+}
