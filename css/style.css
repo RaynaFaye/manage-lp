@@ -27,6 +27,10 @@ body {
   padding: 15px 35px;
   cursor: pointer;
 }
+.button:hover,
+.button:focus {
+  background: hsl(12, 77%, 68%);
+}
 .screen-reader {
   position: absolute;
   left: -100vw;
@@ -79,6 +83,10 @@ body {
   color: hsl(228, 39%, 23%);
   text-decoration: none;
   font-weight: 700;
+}
+.header__menu__link:hover,
+.header__menu__link:focus {
+  color: hsl(227, 12%, 61%);
 }
 .header__button {
   display: none;
@@ -148,6 +156,11 @@ body {
   color: hsl(12, 88%, 59%);
   box-shadow: none;
 }
+.simplify__button:hover,
+.simplify__button:focus {
+  background: hsl(0, 0%, 98%);
+  color: hsl(12, 77%, 68%);
+}
 /* Footer Section */
 .footer {
   background: hsl(233, 12%, 13%);
@@ -182,6 +195,10 @@ body {
 .footer__svg {
   transform: scale(1.75);
 }
+.footer__svg:hover path,
+.footer__social-links a:focus .footer__svg path {
+  fill: #f25f3a;
+}
 .footer__menu {
   grid-area: menu;
   list-style: none;
@@ -196,6 +213,10 @@ body {
 .footer__menu__link {
   color: hsl(13, 100%, 96%);
   text-decoration: none;
+}
+.footer__menu__link:hover,
+.footer__menu__link:focus {
+  color: hsl(12, 88%, 59%);
 }
 .footer__newsletter {
   grid-area: newsletter;
@@ -224,6 +245,10 @@ body {
   border-radius: 50px;
   padding: 15px 0;
   cursor: pointer;
+}
+.footer__newsletter__submit-button:hover,
+.footer__newsletter__submit-button:focus {
+  background: hsl(12, 77%, 68%);
 }
 .footer__copyright {
   grid-area: copyright;
