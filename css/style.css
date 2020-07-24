@@ -329,6 +329,34 @@ body {
   .intro__paragraph {
     width: 75%;
   }
+  /* About section */
+  .about {
+    display: flex;
+    padding: 50px;
+  }
+  .about__intro {
+    flex: 1 1 0;
+    text-align: left;
+    padding: 0;
+  }
+  .about__intro__title {
+    font-size: 38px;
+    margin-right: 100px;
+  }
+  .about__intro__paragraph {
+    width: 75%;
+  }
+  .about__facts {
+    flex: 1 1 0;
+    padding: 0;
+  }
+  .about__facts__title__text {
+    background: none;
+    margin: 0;
+  }
+  .about__facts__paragraph {
+    margin: 0 0 50px 105px;
+  }
   /* Simplify section */
   .simplify {
     background: hsl(12, 88%, 59%) no-repeat url(../images/bg-simplify-section-desktop.svg);
@@ -406,6 +434,13 @@ body {
   .intro__paragraph {
     width: 70%;
   }
+  /* About section */
+  .about {
+    padding: 50px 150px;
+  }
+  .about__intro__paragraph {
+    width: 70%;
+  }
   /* Simplify section */
   .simplify {
     padding: 50px 150px;
@@ -424,6 +459,10 @@ body {
     font-size: 52px;
   }
   .intro__paragraph {
+    width: 60%;
+  }
+  /* About section */
+  .about__intro__paragraph {
     width: 60%;
   }
   /* Footer */
