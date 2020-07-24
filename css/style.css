@@ -250,6 +250,18 @@ body {
 .footer__newsletter__submit-button:focus {
   background: hsl(12, 77%, 68%);
 }
+.tooltip {
+  display: none;
+  font-style: italic;
+  font-size: 12px;
+  margin-left: 25px;
+}
+.footer__tooltip {
+  color: hsl(0, 88%, 59%);
+}
+.footer__tooltip-two {
+  color: hsl(133, 88%, 59%);
+}
 .footer__copyright {
   grid-area: copyright;
   color: hsl(227, 12%, 61%);
