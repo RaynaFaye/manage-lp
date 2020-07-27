@@ -4,6 +4,10 @@ body {
   font-family: 'Be Vietnam', sans-serif;
   font-size: 16px;
   margin: 0;
+  background-image: url(../images/bg-tablet-pattern.svg), url(../images/bg-tablet-pattern.svg);
+  background-position: left 75px top -100px, left 235px top 17%;
+  background-size: 120%, 90%;
+  background-repeat: no-repeat, no-repeat;
 }
 .title {
   font-weight: 700;
@@ -94,7 +98,7 @@ body {
 /* Intro Section */
 .intro {
   text-align: center;
-  padding: 0 25px 75px 25px;
+  padding: 0 25px 100px 25px;
 }
 .intro__image {
   width: 100%;
