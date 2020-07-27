@@ -175,6 +175,24 @@ body {
   color: hsl(228, 39%, 23%);
   margin-top: 25px;
 }
+.testimonials__dots {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 25px 0 0 0;
+}
+.testimonials__dot {
+  width: 7px;
+  height: 7px;
+  border: 1px solid hsl(12, 88%, 59%);
+  border-radius: 50%;
+  margin: 3px;
+  cursor: pointer;
+}
+.testimonials__dot.active {
+  background: hsl(12, 88%, 59%);
+}
 .testimonial__button {
   margin: 50px auto;
 }
