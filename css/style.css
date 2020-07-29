@@ -162,6 +162,10 @@ body {
   position: relative;
   grid-column: 1;
   grid-row: 2;
+  display: none;
+}
+.testimonial.shown {
+  display: block;
 }
 .testimonial__avatar-block {
   width: 75px;
@@ -187,8 +191,7 @@ body {
   margin: 25px 0 0 0;
 }
 .testimonials__dot {
-  width: 7px;
-  height: 7px;
+  padding: 5px;
   border: 1px solid hsl(12, 88%, 59%);
   border-radius: 50%;
   margin: 3px;

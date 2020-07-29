@@ -9,6 +9,10 @@ const emailInput = form.querySelector('.footer__newsletter__input');
 const tooltip = document.querySelector('.footer__tooltip');
 const tooltipTwo = document.querySelector('.footer__tooltip-two');
 
+const testimonialDots = document.querySelectorAll('.testimonials__dot');
+const testimonials = document.querySelectorAll('.testimonial');
+const testinmonialsArray = Array.from(testimonials);
+
 // Functionality for Menu
 menuButton.addEventListener('click', () => {
   if (menu.classList.contains('hidden')) {
@@ -63,4 +67,21 @@ form.addEventListener('submit', (event) => {
     }, 3000);
     form.reset();
   }
+});
+
+//Funtionality for testimonial slider
+testimonialDots.forEach((testimonialDot) => {
+  testimonialDot.addEventListener('click', () => {
+    testimonialDots.forEach((testimonialDot) => {
+      testimonialDot.classList.remove('active');
+    });
+    testimonialDot.classList.add('active');
+    for (i = 0; i < testimonialDots.length; i++) {
+      if (testimonialDots[i].classList.contains('active')) {
+        testinmonialsArray[i].style.display = 'block';
+      } else {
+        testinmonialsArray[i].style.display = 'none';
+      }
+    }
+  });
 });
