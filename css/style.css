@@ -50,8 +50,14 @@ body {
   align-items: center;
   padding: 50px 20px;
 }
+.header__image-block {
+  z-index: 2;
+}
 .header__logo {
   vertical-align: middle;
+}
+.header__nav {
+  z-index: 2;
 }
 .header__menu__button {
   background: transparent;
@@ -62,19 +68,20 @@ body {
   background-color: #ffffff;
   text-align: center;
   list-style: none;
-  width: 90%;
   padding: 15px 0;
   border-radius: 5px;
   position: absolute;
-  top: 45px;
+  top: 125px;
   left: 20px;
+  right: 20px;
+  margin: 0 auto;
 }
-.header__menu__container.open {
-  position: fixed;
-  top: 80px;
-  right: 0;
-  left: 0;
-  bottom: 0;
+.background-fade {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  height: 100vh;
+  width: 100%;
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(36, 45, 82, 0.6));
 }
 .header__menu.hidden {
